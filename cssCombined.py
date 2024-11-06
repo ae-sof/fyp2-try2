@@ -233,7 +233,7 @@ if st.session_state.page == 'home':
         # st.subheader(f"Welcome, {st.session_state.name}!")        
         
         st.markdown('<h2 class="header">Welcome, {}</h2>'.format(st.session_state.name), unsafe_allow_html=True)
-        st.image("C:/Users/Ainin Sofiya/Documents/UTP/YEAR 3/FYP I/Images/holiday_notice_image.png.png")  # Ensure the path is correct
+        st.image("![holiday_notice_image png](https://github.com/user-attachments/assets/7d2c11c4-e935-4c6a-bb4f-230365a9fcc5)")  # Ensure the path is correct
         st.markdown('<h5 class="header">Current Address: {}</h5>'.format(st.session_state.address), unsafe_allow_html=True)
 
         # st.write(f"Current Address: {st.session_state.address}")  # Display the current address
